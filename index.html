@@ -1,1 +1,14 @@
-Hello World
+- Masuk Mongo
+mongo --quiet -u root -p
+
+- Lihat Semua Database
+show databases
+
+- Menggunakan Database
+use <name_of_database>
+
+- Lihat Semua Collection
+show collections
+
+- Lihat Collection Tertentu
+db.getCollection("products").find().pretty()
